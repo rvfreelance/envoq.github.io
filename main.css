@@ -3,6 +3,17 @@
     background-color: gray;
 }
 
+#footer{
+    position: fixed;
+    bottom: 0;  
+    width: 100%;
+    text-align: right;
+    background-color: rgba(53, 51, 51, 0.8);
+    color: whitesmoke;
+    margin: 200px 0px 10px -15px;
+    padding: 0px 20px 0px 0px;    
+}
+
 #logo, #pages{
     display: flex;
     justify-content: center;
