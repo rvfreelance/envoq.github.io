@@ -46,7 +46,39 @@ section{
     text-align: right;
 }
 
+h1{
+    text-align: left;
+    font-size: 200%;
+}
 
+#layout_4{
+    display: flex;
+    padding-left: 10%;
+}
+#layout_4 span{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: black;
+    font-size: 75%
+}
+
+#layout_4 button{
+    background-color: #ff0015;
+    border: 5px solid #ff0015;
+    border-radius: 20px;
+    padding: 2% 5%;
+}
+#layout_4 button:hover{
+    background-color: #fd2c3d;
+    border: 5px solid #fd2c3d;
+}
+.joiningForm p{
+    text-align: left;
+}
+.logo{
+    padding-top: 10%
+}
 #layout_3, #layout_2, #layout_1{
     display: flex;
     justify-content: center;
