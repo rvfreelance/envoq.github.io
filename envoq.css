@@ -25,6 +25,10 @@ a{
     color: grey;
 }
 
+#footer a:hover{
+    color: #fd2c3d;
+    font-weight: bolder;
+}
 a:hover{
     color: black;
     /* text-decoration: overline; */
