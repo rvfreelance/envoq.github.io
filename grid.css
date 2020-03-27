@@ -1,4 +1,5 @@
 body{
+    background-color: rgb(221, 221, 221);
     margin: auto 0;
     display: grid;
     grid-template-columns: repeat(auto-fill, 1fr);
@@ -14,11 +15,11 @@ section{
 
 .hea_cov{
     margin: auto 0;
-    text-align: center;
+    /* text-align: center; */
     color: white;
 }
 #header{
-    background-color: black;
+    /* background-color: black; */
     position: sticky;
     top: 0px;
 }
@@ -91,6 +92,9 @@ section{
     padding: 20px;
     /* padding-bottom: 80px; */
 }
+.text span{
+    color: rgb(187, 36, 19);
+}
 #question{
     margin-top: 5em;
     display: flex;
@@ -100,10 +104,10 @@ section{
     align-items: center;
 }
 button {
-    background-color: rgb(255, 0, 21);
+    background-color: rgb(187, 36, 19);
     border-width: 10px 25px;
     border-style: solid;
-    border-color: rgb(255, 0, 21);
+    border-color: rgb(187, 36, 19);
     border-radius: 40px;
     padding: 5% 0%;
 }
@@ -125,10 +129,14 @@ button a:hover {
     position: relative;
     bottom: 0px;
     left: 0px;
-    color: white;
+    color: rgb(143, 143, 143);
     padding: 10px 15px 15px 10px;
     background-color: black;
     text-align: right;
+    font-size: 0.7em;
+}
+#footer span{
+    font-size: 0.8em;
 }
 
 #nav{
@@ -138,20 +146,21 @@ button a:hover {
     margin-bottom: 5em;
 }
 #nav:hover {
-    background-color: rgba(0, 0, 0, 0.9);
-    transition: 2s;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: black;
+    transition: 0.5s;
 }
 .main-nav{
     display: flex;
     list-style: none;
-    font-size: 1em;
+    font-size: 0.8em;
     margin: 0;
-    font-weight: bold;
+    font-weight: 400;
     
 }
 @media only screen and (max-width: 600px) {
     .main-nav{
-        font-size: 1em;
+        font-size: 0.8em;
         padding: 0;
     }
 }
@@ -160,10 +169,6 @@ button a:hover {
 }
 li{
     padding: 20px;
-}
-#footer a:hover{
-    color: #fd2c3d;
-    font-weight: unset;
 }
 
 a {
